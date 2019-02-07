@@ -4,5 +4,8 @@
 
 #include "stdafx.h"
 
+// dummy value used by a modified msdk dispatcher
+HINSTANCE g_hInst;
+
 // TODO: reference any additional headers you need in STDAFX.H
 // and not in this file

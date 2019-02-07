@@ -119,13 +119,13 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <MinimalRebuild>false</MinimalRebuild>
       <AdditionalIncludeDirectories>MSDK\include</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>IntelQuickSyncDecoder.def</ModuleDefinitionFile>
-      <AdditionalDependencies>winmm.lib;uuid.lib;D3D9.lib;Dxva2.lib;strmiids.lib;d3d11.lib;dxgi.lib;libmfx_vs14d.lib</AdditionalDependencies>
+      <AdditionalDependencies>winmm.lib;uuid.lib;D3D9.lib;Dxva2.lib;strmiids.lib;d3d11.lib;dxgi.lib;libmfx_d.lib</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
@@ -145,7 +145,7 @@
       </DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <MinimalRebuild>false</MinimalRebuild>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <AdditionalIncludeDirectories>MSDK\include</AdditionalIncludeDirectories>
     </ClCompile>
@@ -153,7 +153,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>IntelQuickSyncDecoder.def</ModuleDefinitionFile>
-      <AdditionalDependencies>winmm.lib;uuid.lib;D3D9.lib;Dxva2.lib;strmiids.lib;d3d11.lib;dxgi.lib;libmfx_vs14d.lib</AdditionalDependencies>
+      <AdditionalDependencies>winmm.lib;uuid.lib;D3D9.lib;Dxva2.lib;strmiids.lib;d3d11.lib;dxgi.lib;libmfx_d.lib</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalOptions>/IGNORE:4099 %(AdditionalOptions)</AdditionalOptions>
@@ -184,7 +184,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <ModuleDefinitionFile>IntelQuickSyncDecoder.def</ModuleDefinitionFile>
-      <AdditionalDependencies>winmm.lib;uuid.lib;D3D9.lib;Dxva2.lib;strmiids.lib;d3d11.lib;dxgi.lib;libmfx_vs14.lib</AdditionalDependencies>
+      <AdditionalDependencies>winmm.lib;uuid.lib;D3D9.lib;Dxva2.lib;strmiids.lib;d3d11.lib;dxgi.lib;libmfx.lib</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
@@ -224,7 +224,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <ModuleDefinitionFile>IntelQuickSyncDecoder.def</ModuleDefinitionFile>
-      <AdditionalDependencies>winmm.lib;uuid.lib;D3D9.lib;Dxva2.lib;strmiids.lib;d3d11.lib;dxgi.lib;libmfx_vs14.lib</AdditionalDependencies>
+      <AdditionalDependencies>winmm.lib;uuid.lib;D3D9.lib;Dxva2.lib;strmiids.lib;d3d11.lib;dxgi.lib;libmfx.lib</AdditionalDependencies>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
